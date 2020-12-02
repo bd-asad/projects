@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Website List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style type="text/css">
+      html, body{
+      margin:0;
+      padding:0;
+      background-color:#ffffff;
+      font-family: 'Montserrat', sans-serif;
+      }
+      canvas{
+      display:block;
+      position:fixed;
+      top:0;
+      left:0;
+      }
+      .heading {
+      font-weight: 100;
+      background-color: rgba(1, 1, 1, 0.43);
+      padding: 0 10px;
+      color: #f7ff00;
+      margin: 0 auto;
+      border-bottom: 1px solid #75c600;
+      }
+      .content {
+      position: relative;
+      z-index: 99999;
+      color: #1ace00;
+      text-align: center;
+      width: 100%;
+      height: 98vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      .link-2-area a {
+      color: #75c600;
+      padding: 15px 5px;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 200;
+      }
+      .link-2-area a::before {
+      position: absolute;
+      top: 0;
+      overflow: hidden;
+      padding: 5px 0;
+      max-width: 0;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      content: attr(data-hover);
+      -webkit-transition: max-width 1s;
+      -moz-transition: max-width 1s;
+      transition: max-width 1s;
+      }
+      .link-2-area a:hover::before, .link-2-area a:focus::before {
+      max-width: 100%;
+      }
+      .link-2-area li {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+      padding: 5px;
+      }
+      .link-2-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      background-color: rgba(1, 1, 1, 0.43);
+      flex-wrap: wrap;
+      padding: 1px 0;
+      }
+      @media (max-width: 600px){
+      .link-2-area a, .heading {
+      font-size: 20px;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="heading">Just click on any project to see</h1>
+      <ul class="link-2-area">
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/p3/" target="_blank" data-hover="Project1">Project1</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/p2/" target="_blank" data-hover="Project2">Project2</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/p1/" target="_blank" data-hover="Project3">Project3</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/p4/" target="_blank" data-hover="Project4">Project4</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/rtl/" target="_blank" data-hover="Project5">Project5</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/August/Sam_Guna_F/" target="_blank" data-hover="Project6">Project6</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/August/Sam_Guna_F/Sam_Guna_F2/" target="_blank" data-hover="Project7">Project7</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/texi-cab/" target="_blank" data-hover="Project8">Project8</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/texi-cab4/" target="_blank" data-hover="Project9">Project9</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/texi-cab5/" target="_blank" data-hover="Project10">Project10</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/web/" target="_blank" data-hover="Project11">Project11</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/July/" target="_blank" data-hover="Project12">Project12</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/July/web/" target="_blank" data-hover="Project13">Project13</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/Pulse_Covid19/" target="_blank" data-hover="Project14">Project14</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/NewMarMat/" target="_blank" data-hover="Project15">Project15</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/sfopeano-3/form_angelwheels.html" target="_blank" data-hover="Project16">Project16</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/sdmaestro-2/" target="_blank" data-hover="Project17">Project17</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/web/" target="_blank" data-hover="Project18">Project18</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/test/web2/" target="_blank" data-hover="Project19">Project19</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://dressofbd.github.io/preview/october/web/" target="_blank" data-hover="Project20">Project20</a>
+          </div>
+        </li>
+        <li>
+          <div class="link-div">
+            <a href="https://bd-asad.github.io/p2/BeesStory/index.html" target="_blank" data-hover="Project21">Project21</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script  src="all.js"></script>
+  </body>
+</html>
+
